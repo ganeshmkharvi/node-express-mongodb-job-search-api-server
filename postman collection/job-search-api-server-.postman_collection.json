@@ -1,0 +1,99 @@
+{
+	"info": {
+		"_postman_id": "cd5b2104-b2c7-4f7f-8d6d-ff099f1cc6cf",
+		"name": "job-search-api-server-services",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "services",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"name\": \"Resume Writing \",\r\n        \"type\": \"resume-writing\",\r\n        \"description\": \"Resume Description\",\r\n        \"tiers\": [\r\n            {\r\n                \"type\": \"Free\",\r\n                \"price\": \"$0\",\r\n                \"period:\": \"/ mo\",\r\n                \"descriptionList\": [\r\n                    \"10 users included\",\r\n                    \"2 GB of storage\",\r\n                    \"Email support\",\r\n                    \"Help center access\"\r\n                ]\r\n            },\r\n            {\r\n                \"type\": \"Pro\",\r\n                \"price\": \"$15\",\r\n                \"period:\": \"/ mo\",\r\n                \"descriptionList\": [\r\n                    \"20 users included\",\r\n                    \"10 GB of storage\",\r\n                    \"Priority Email support\",\r\n                    \"Help center access\"\r\n                ]\r\n            },\r\n            {\r\n                \"type\": \"Enterprise\",\r\n                \"price\": \"$29\",\r\n                \"period:\": \"/ mo\",\r\n                \"descriptionList\": [\r\n                    \"30 users included\",\r\n                    \"15 GB of storage\",\r\n                    \"Phone and Email support\",\r\n                    \"Help center access\"\r\n                ]\r\n            }\r\n        ]\r\n    },\r\n    {\r\n        \"name\": \"Career Coaching\",\r\n        \"type\": \"career-coaching\",\r\n        \"description\": \"Career Coaching Description\",\r\n        \"tiers\": [\r\n            {\r\n                \"type\": \"Free\",\r\n                \"price\": \"$0\",\r\n                \"period:\": \"/ mo\",\r\n                \"descriptionList\": [\r\n                    \"10 users included\",\r\n                    \"2 GB of storage\",\r\n                    \"Email support\",\r\n                    \"Help center access\"\r\n                ]\r\n            },\r\n            {\r\n                \"type\": \"Pro\",\r\n                \"price\": \"$15\",\r\n                \"period:\": \"/ mo\",\r\n                \"descriptionList\": [\r\n                    \"20 users included\",\r\n                    \"10 GB of storage\",\r\n                    \"Priority Email support\",\r\n                    \"Help center access\"\r\n                ]\r\n            },\r\n            {\r\n                \"type\": \"Enterprise\",\r\n                \"price\": \"$29\",\r\n                \"period:\": \"/ mo\",\r\n                \"descriptionList\": [\r\n                    \"30 users included\",\r\n                    \"15 GB of storage\",\r\n                    \"Phone and Email support\",\r\n                    \"Help center access\"\r\n                ]\r\n            }\r\n        ]\r\n    },\r\n    {\r\n        \"name\": \"Linkedin profile update \",\r\n        \"type\": \"linkedin-profile-update\",\r\n        \"description\": \"Update your linkedin profile\",\r\n        \"tiers\": [\r\n            {\r\n                \"type\": \"Free\",\r\n                \"price\": \"$0\",\r\n                \"period:\": \"/ mo\",\r\n                \"descriptionList\": [\r\n                    \"10 users included\",\r\n                    \"2 GB of storage\",\r\n                    \"Email support\",\r\n                    \"Help center access\"\r\n                ]\r\n            },\r\n            {\r\n                \"type\": \"Pro\",\r\n                \"price\": \"$15\",\r\n                \"period:\": \"/ mo\",\r\n                \"descriptionList\": [\r\n                    \"20 users included\",\r\n                    \"10 GB of storage\",\r\n                    \"Priority Email support\",\r\n                    \"Help center access\"\r\n                ]\r\n            },\r\n            {\r\n                \"type\": \"Enterprise\",\r\n                \"price\": \"$29\",\r\n                \"period:\": \"/ mo\",\r\n                \"descriptionList\": [\r\n                    \"30 users included\",\r\n                    \"15 GB of storage\",\r\n                    \"Phone and Email support\",\r\n                    \"Help center access\"\r\n                ]\r\n            }\r\n        ]\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/api/services",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"services"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "checkout",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"serviceVariant\": \"hh111gfgffgfg\",\r\n    \"billingAddress\": {\r\n        \"firstName\": \"first\",\r\n        \"lastName\": \"ld\",\r\n        \"email\": \"ax.com\", \"country\": \"Ind\", \"state\": \"mmd\", \"zip\": \"444\"},\r\n            \"payment\": {\r\n            \"mode\": \"Pa\",\r\n             \"name\": \"naren\",\r\n            \"number\":\"dsfdsf\", \"expiration\": \"dfdd\", \"cvv\": \"dsds\"}\r\n        }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/api/checkout",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"checkout"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "services",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/api/services",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"services"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

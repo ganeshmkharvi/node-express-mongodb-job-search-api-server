@@ -1,0 +1,9 @@
+const { mongoDbUrl } = require('./config');
+const mongoose = require("mongoose");
+mongoose.Promise = global.Promise;
+const db = {};
+db.mongoose = mongoose;
+db.url = mongoDbUrl
+db.checkouts = require("../models/checkout/checkout.model.js")(mongoose);
+db.services = require("../models/service/service.model.js")(mongoose);
+module.exports = db;
