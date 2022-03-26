@@ -49,7 +49,7 @@ To run this project, you'll need to have the following installed:
 
 1. Clone the repo :
    ```sh
-   git clone git https://github.com/ganeshmkharvi/job-search-api-server.git
+   git clone https://github.com/ganeshmkharvi/job-search-api-server.git
    ```
 2. Install dependencies (use `sudo` if required) :
 
