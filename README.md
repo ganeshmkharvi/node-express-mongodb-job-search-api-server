@@ -70,4 +70,4 @@ To run this project, you'll need to have the following installed:
    ```sh
    npm start
    ```
-   
+5. Run http://localhost:3001/api/services api in postman only once. You will get all the details in the postman collection added in this repo.
