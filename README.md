@@ -1,4 +1,3 @@
-<!-- PROJECT LOGO -->
 <p align="center">
   <h3 align="center">Job Search API</h3>
   <p align="center">
