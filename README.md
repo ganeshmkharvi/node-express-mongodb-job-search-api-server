@@ -1,6 +1,6 @@
 <!-- PROJECT LOGO -->
 <p align="center">
-  <h3 align="center">Job Search Express API</h3>
+  <h3 align="center">Job Search API</h3>
   <p align="center">
     <a href="https://github.com/ganeshmkharvi/node-express-job-search-api-server/issues">Report Bug </a>
     ·
