@@ -59,7 +59,7 @@ To run this project, you'll need to have the following installed:
 3. Create `.env` file and configure :
 
    ```JS
-   PORT = <PORT>
+   PORT = <PORT>(  )
    MONGO_DB_URL = <MONGO_DB_URL> 
    ```
    E.g. MONGO_DB_URL = mongodb://localhost:27017/jobsearchdb
