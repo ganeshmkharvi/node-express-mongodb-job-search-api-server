@@ -1,9 +1,9 @@
 <p align="center">
   <h3 align="center">Job Search API</h3>
   <p align="center">
-    <a href="https://github.com/ganeshmkharvi/node-express-job-search-api-server/issues">Report Bug </a>
+    <a href="https://github.com/ganeshmkharvi/node-express-mongodb-job-search-api-server/issues">Report Bug </a>
     ·
-    <a href="https://github.com/ganeshmkharvi/node-express-job-search-api-server/issues"> Request Feature</a>
+    <a href="https://github.com/ganeshmkharvi/node-express-mongodb-job-search-api-server/issues"> Request Feature</a>
   </p>
 </p>
 
