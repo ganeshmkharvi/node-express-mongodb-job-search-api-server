@@ -48,7 +48,7 @@ To run this project, you'll need to have the following installed:
 
 1. Clone the repo :
    ```sh
-   git clone https://github.com/ganeshmkharvi/node-express-job-search-api-server.git
+   git clone https://github.com/ganeshmkharvi/node-express-mongodb-job-search-api-server.git
    ```
 2. Install dependencies (use `sudo` if required) :
 
