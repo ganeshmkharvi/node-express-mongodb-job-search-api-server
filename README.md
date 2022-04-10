@@ -1,9 +1,9 @@
 <p align="center">
   <h3 align="center">Job Search API</h3>
   <p align="center">
-    <a href="https://github.com/ganeshmkharvi/node-express-job-search-api-server/issues">Report Bug </a>
+    <a href="https://github.com/ganeshmkharvi/node-express-mongodb-job-search-api-server/issues">Report Bug </a>
     ·
-    <a href="https://github.com/ganeshmkharvi/node-express-job-search-api-server/issues"> Request Feature</a>
+    <a href="https://github.com/ganeshmkharvi/node-express-mongodb-job-search-api-server/issues"> Request Feature</a>
   </p>
 </p>
 
@@ -61,9 +61,9 @@ To run this project, you'll need to have the following installed:
    ```JS
    PORT = <PORT>
    MONGO_DB_URL = <MONGO_DB_URL> 
+   ```
    E.g. MONGO_DB_URL = mongodb://localhost:27017/jobsearchdb
    Here, jobsearchdb is the database name.
-   ```
 
 4. Start the server :
    ```sh
