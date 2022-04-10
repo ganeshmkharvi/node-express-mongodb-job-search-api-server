@@ -15,6 +15,7 @@
 - Apis to create services, checkouts and retrieve services.
 - Production standard structuring of the application.
 - High SoC (feature based).
+- Postman collection.
 
 
 ### Built With
