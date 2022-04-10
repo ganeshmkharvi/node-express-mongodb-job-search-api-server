@@ -58,7 +58,7 @@ function findAllRecords(res) {
             res.send(data);
         })
         .catch(err => {
-            res.status(500).send({
+            res.status(statusCode500).send({
                 message: err.message || errorServices
             });
         });
